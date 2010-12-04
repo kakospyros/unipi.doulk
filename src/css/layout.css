@@ -1,0 +1,170 @@
+.f400{width:400px;}
+#page{
+	width:100%;
+	height:100%;
+}
+#version,#copyright{
+	position:absolute;
+	left:4px;
+	right:4px;
+	height:26px;
+	background-color:#aaa;
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+	line-height:26px;
+	text-align:right;
+}
+#version{
+	top:0;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.7);
+	-moz-border-radius:0 0 8px 8px;
+}
+.info{
+	color:#444;
+	text-shadow:0 1px 1px #fff;
+	border-right:1px solid #888;
+	padding:0 8px 0 4px;
+}
+.info:first-child{padding:0 8px 0 8px;}
+.info:nth-last-child(-n+1){
+	border:none;
+	padding:0 8px 0 8px;
+}
+#logo{
+	position:fixed;
+	height:134px;
+	width:164px;
+	top:50%;
+	left:50%;
+	margin-left:-291px;
+	margin-top:-97px;
+	background-color:#000;
+	border:1px solid #000;
+	padding:54px 0 0 10px;
+	background:-moz-linear-gradient(bottom,#000 0%,#000 32%,rgba(0,0,0,0.7) 100%);
+	-moz-border-radius:8px;
+}
+#panel{
+	position:fixed;
+	width:400px;
+	height:190px;
+	top:50%;
+	margin-top:-97px;
+	left:50%;
+	margin-left:-101px;
+}
+#copyright{
+	bottom:0;
+	-moz-box-shadow:1px -1px 1px rgba(0,0,0,0.4);
+	-moz-border-radius:8px 8px 0 0;
+}
+#topspacer,#eprescribe,#topbar,#bottomspacer,#menu,#taskbar,#maincontainer{position:absolute;}
+#topbar,#taskbar{
+	height:26px;
+	line-height:26px;
+	background-color:#aaa;
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+}
+#topspacer{
+	top:16px;
+	left:16px;
+	width:16px;
+	height:26px;
+	background-color:#aaa;
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+	-moz-box-shadow:1px -1px 1px rgba(0,0,0,0.4);
+	-moz-border-radius:8px 0 0 0;
+}
+#eprescribe{
+	z-index:2;
+	padding:11px 0 0 50px;
+	top:4px;
+	width:206px;
+	left:32px;
+	height:38px;
+	background-color:#000;
+	background:-moz-linear-gradient(bottom,#000 0%,#000 32%,rgba(0,0,0,0.7) 100%);
+	-moz-border-radius:8px 8px 0 0;
+}
+#topbar{
+	top:16px;
+	left:288px;
+	right:16px;
+	-moz-box-shadow:1px -1px 1px rgba(0,0,0,0.4);
+	-moz-border-radius:0 8px 0 0;
+}
+#bottomspacer{
+	top:42px;
+	left:4px;
+	right:4px;
+	height:48px;
+	background-color:#000;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.7);
+	-moz-border-radius:8px;
+}
+#menu{
+	float:left;
+	top:98px;
+	left:4px;
+	right:4px;
+	bottom:34px;
+	width:288px;
+}
+#maincontainer{
+	float:left;
+	top:98px;
+	left:292px;
+	right:4px;
+	bottom:34px;
+}
+#taskbar{
+	bottom:0;
+	left:4px;
+	right:4px;
+	text-align:right;
+	-moz-box-shadow:1px -1px 1px rgba(0,0,0,0.4);
+	-moz-border-radius:8px 8px 0 0;
+}
+.userinfo{
+	float:right;
+	text-align:center;
+	line-height:12px;
+	padding:0 8px 0 8px;
+	margin:10px 16px 0 0;
+	font-family:"normal";
+	font-size:12px;
+	color:#aaa;
+	border-right:1px solid #444;
+}
+.userdash{
+		float:right;
+	text-align:center;
+	line-height:12px;
+	padding:0 8px 0 8px;
+	margin:6px 16px 0 0;
+	font-family:"normal";
+	font-size:12px;
+	color:#aaa;
+	border-right:1px solid #444;
+}
+.user{
+	float:right;
+	vertical-align:middle;
+	margin:8px 8px 0 0;
+}
+.selector{
+	float:right;
+	color:#444;
+	margin-right:5px;
+	margin-top:6px;
+	cursor:pointer;
+}
+.logout{
+	width:29px;
+	height:29px;
+	float:right;
+	cursor:pointer;
+	vertical-align:middle;
+	margin:10px 16px 0 0;
+	background:url("/src/img/logoutoff.png") no-repeat;
+}
+.logout:hover{background:url("/src/img/logouton.png") no-repeat;}

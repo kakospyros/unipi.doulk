@@ -1,0 +1,11 @@
+@font-face{font-family:"bold";src:url("/lib/ttf/bold.ttf") format("truetype");}
+@font-face{font-family:"bolditalic";src:url("/lib/ttf/bolditalic.ttf") format("truetype");}
+@font-face{font-family:"condensedblack";src:url("/lib/ttf/condensedblack.ttf") format("truetype");}
+@font-face{font-family:"condensedbold";src:url("/lib/ttf/condensedbold.ttf") format("truetype");}
+@font-face{font-family:"italic";src:url("/lib/ttf/italic.ttf") format("truetype");}
+@font-face{font-family:"light";src:url("/lib/ttf/light.ttf") format("truetype");}
+@font-face{font-family:"lightitalic";src:url("/lib/ttf/lightitalic.ttf") format("truetype");}
+@font-face{font-family:"medium";src:url("/lib/ttf/medium.ttf") format("truetype");}
+@font-face{font-family:"normal";src:url("/lib/ttf/normal.ttf") format("truetype");}
+@font-face{font-family:"ultralight";src:url("/lib/ttf/ultralight.ttf") format("truetype");}
+@font-face{font-family:"ultralightitalic";src:url("/lib/ttf/ultralightitalic.ttf") format("truetype");}

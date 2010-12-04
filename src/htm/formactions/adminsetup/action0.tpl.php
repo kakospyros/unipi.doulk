@@ -1,0 +1,3 @@
+<form>
+	<?= $_commands; ?>
+</form>

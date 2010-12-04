@@ -1,0 +1,31 @@
+.desktop-menu{width:256px;}
+.link{
+	margin-top:8px;
+	padding-left:68px;
+	display:block;
+	font-size:16px;
+	font-family:"normal";
+	margin-left:28px;
+	width:188px;
+	line-height:14px;
+	padding-top:18px;
+	border:1px solid #fff;
+}
+.link:hover{
+	background-color:#eee;
+	border:1px dotted #aaa;
+	-moz-border-radius:8px;
+}
+em{font-family:"bold";font-size:16px;}
+.subtitle{
+	color:#888;
+	display:block;
+	font-size:11px;
+}
+.cc{background:url("/src/img/cc.png") no-repeat 8px center;height:48px;}
+.ca{background:url("/src/img/ca.png") no-repeat 8px center;height:48px;}
+.wp{background:url("/src/img/wp.png") no-repeat 8px center;height:48px;}
+.cp{background:url("/src/img/cp.png") no-repeat 8px center;height:48px;}
+.ss{background:url("/src/img/ss.png") no-repeat 8px center;height:48px;}
+.bc{background:url("/src/img/bc.png") no-repeat 8px center;height:48px;}
+.as{background:url("/src/img/as.png") no-repeat 8px center;height:48px;}

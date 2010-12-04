@@ -1,0 +1,277 @@
+.g50{width:50px;}
+.g100{width:100px;}
+.g176{width:176px;}
+.g244{width:244px;}
+.g254{width:254px;}
+.g428{width:428px;}
+.g622{width:622px;}
+.ui-dialog{
+	padding:0;
+	-moz-box-shadow:0px 0 8px rgba(0,0,0,0.4);
+}
+.ui-widget{font-family:"normal";}
+.ui-corner-all{-moz-border-radius:8px;}
+.ui-widget-content{
+	border:1px solid #bbb;
+	background:none;
+	color:#fff;
+	background-color:#fff;
+}
+.ui-widget-header{
+	border:none;
+	background:-moz-linear-gradient(bottom,#000 0%,#000 32%,rgba(0,0,0,0.7) 100%);
+	font-weight:normal;
+	height:28px;
+	line-height:28px;
+	margin:5px 5px 4px 5px;
+	-moz-box-shadow:0px 0 4px rgba(0,0,0,0.7);
+}
+.ui-dialog .ui-dialog-title{
+	margin:0;
+	font-family:"bold";
+	color:#fff;
+	font-size:16px;
+}
+.ui-dialog .ui-dialog-content{
+	padding:5px 4px 4px 6px;
+}
+fieldset{padding:2px 0;}
+.inputFrame,.commandFrame,.referenceFrame{
+	width:100%;
+	float:right;
+	margin-bottom:10px;
+	padding:8px 0;
+	background-color:#ccc;
+	border:1px solid #aaa;
+	-moz-border-radius:8px;
+	-moz-box-shadow:0px 0 4px rgba(0,0,0,0.4);
+}
+.referenceFrame{margin-top:2px;}
+.referenceLabel{float:left;}
+.referenceValue{
+	float:right;
+	font-size:24px;
+	font-family:Georgia;
+	padding:2px 8px 0 0;
+	text-shadow:0px 1px 1px #fff;
+}
+.commandFrame{
+	text-align:right;
+	margin:0;
+}
+h1{
+	font-size:16px;
+	padding:0px 0px 0px 8px;
+	text-shadow:0px 1px 1px #fff;
+	font-family:"bold";
+}
+h2{
+	padding:0px 0px 0px 8px;
+	font-family:"normal";
+	font-size:11px;
+	color:#444;
+}
+.hr{
+	display:block;
+	position:relative;
+	margin:8px;
+	height:1px;
+	background-color:#aaa;
+	border-bottom:1px solid #eee;
+}
+.vr{
+	display:block;
+	float:left;
+	margin:2px 0 0 8px;
+	height:26px;
+	width:1px;
+	background-color:#aaa;
+	border-right:1px solid #eee;
+}
+label{
+	display:block;
+	float:left;
+	margin:4px 0 0 8px;
+	text-align:right;
+	font-size:13px;
+	text-shadow:0px 1px 1px #fff;
+	line-height:11px;
+}
+.single {
+	margin:7px 0 0 8px;
+}
+.selectLabel{
+	height:64px;
+	padding-top:20px;
+	margin-bottom:-20px;
+}
+.sublabel{
+	font-family:"normal";
+	font-size:10px;
+	color:#444;
+	text-shadow:none;
+}
+.wptext{
+	background-color:#f2f2f2;
+	display:block;
+	float:left;
+	margin:2px 8px 2px 0px;
+	border:1px solid #888;
+	padding:4px;
+	font-size:13px;
+	-moz-border-radius:4px;
+	margin-left:8px;
+}
+.wpselect{
+	display:block;
+	float:left;
+	margin:2px 8px 2px 8px;
+	border:1px solid #888;
+	padding:4px;
+	-moz-border-radius:4px;
+	background-color:#f2f2f2;
+}
+.smallSize{height:64px;}
+.bigSize{height:134px;}
+option{font-size:10px;}
+.ui-widget input,.ui-widget button{
+	font-family:"normal";
+	font-size:12px;
+}
+.ui-widget input.wptextInfo{font-family:"bold";}
+.wptextInfo{
+	background-color:#ccc;
+	border:1px solid #ccc;
+	display:block;
+	float:left;
+	margin:2px 8px 2px 0px;
+	padding:4px;
+	font-size:13px;
+	-moz-border-radius:4px;
+	margin-left:8px;
+}
+.wptext:focus{border:1px solid #8264cc;}
+.wptextInfo:focus{border:1px solid #ccc;}
+.wpbutton{
+	font-size:12px;
+	display:inline-block;
+	cursor:pointer;
+	padding:4px 8px;
+	margin-right:4px;
+	color:#fff;
+	text-decoration:none;
+	text-shadow:0 -1px 1px #000;
+	background:-moz-linear-gradient(bottom,#000 0%,#222 49%,#444 51%,#666 100%);
+	-moz-border-radius:4px;
+	-moz-box-shadow:0px 1px 4px rgba(0,0,0,0.6);
+}
+.wpbutton:nth-last-child(-n+1){margin-right:8px;}
+.wpbutton:hover{-moz-box-shadow:0px 1px 6px rgba(0,0,0,0.9);}
+.green{color:#009900;}
+.blue{color:#3333cc;}
+.cyan{color:#33ccff;}
+.orange{color:#cc6600;}
+.red{color:#cc0000;}
+.purple{color:#cc33cc;}
+.error{background-color:red;}
+.success{background-color:green;}
+.tableHeader, .tableFooter{
+	margin:0;
+	padding:0;
+	height:32px;
+	background-color:#aaa;
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+	-moz-box-shadow:none;
+	border:1px solid #ccc;
+	line-height:32px;
+}
+.tableFooter{margin:0;}
+.dataTables_filter input{
+	width:250px;
+	background:none;
+	background-color:#f2f2f2;
+}
+.dataTables_filter input:focus{
+	width:250px;
+	background:none;
+	border:1px solid #8264cc;
+}
+.error-dialog .ui-dialog-buttonpane button, .confirm-dialog .ui-dialog-buttonpane button{
+	border:none;
+	display:inline-block;
+	cursor:pointer;
+	padding:4px 8px;
+	margin-right:4px;
+	text-decoration:none;
+	text-shadow:0 -1px 1px #000;
+	background:-moz-linear-gradient(bottom,#000 0%,#222 49%,#444 51%,#666 100%);
+	-moz-border-radius:4px;
+	-moz-box-shadow:0px 1px 4px rgba(0,0,0,0.6);
+}
+.error-dialog .ui-button-text-only .ui-button-text, .confirm-dialog .ui-button-text-only .ui-button-text{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	font-family:"normal";
+	font-size:12px;
+	color:#fff;
+}
+.ui-tabs.ui-widget {
+	border:0px;
+}
+.ui-tabs .ui-tabs-panel{
+	padding:0;
+}
+.ui-tabs .ui-tabs-nav li{
+	margin:0 1px 0 0;
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+	border:1px solid #ccc;
+}
+.ui-tabs .ui-tabs-nav li, .ui-tabs .ui-tabs-nav li a{
+	height:26px;
+	line-height:26px;
+	margin-bottom:2px;
+	color:#444;
+	text-shadow:0 1px 1px #fff;
+}
+.ui-tabs .ui-tabs-nav li a{
+	padding:0 8px;
+}
+.ui-tabs .ui-tabs-nav{
+	padding:0;
+}
+.ui-tabs ul.ui-corner-all{
+	-moz-border-radius:0;
+	height:26px;
+	line-height:26px;
+}
+.ui-tabs ul.ui-widget-header{
+	background:none;
+	-moz-box-shadow:none;
+	margin-top:-2px;
+}
+.ui-tabs div.tableHeader{
+	-moz-border-radius-topleft:0;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+	background:-moz-linear-gradient(bottom,#aaa 0%,#fff 100%);
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a{
+	color:#fff;
+	text-shadow:0 -1px 1px #000;
+	margin-bottom:1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+	border:1px solid #aaa;
+	background:-moz-linear-gradient(bottom,#000 0%,#222 49%,#444 51%,#666 100%);
+	margin-bottom:1px;
+}
+button.ui-state-default.ui-state-default{
+	border:none;
+}
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
